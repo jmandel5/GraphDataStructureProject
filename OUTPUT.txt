@@ -1,0 +1,31 @@
+//Jack Mandell
+//jmandel5@u.rochester.edu
+
+//To see how my file can be run, I will give some examples:
+//Each is labeled with a number that corresponds to an image of the output in the project folder
+
+(1)
+java GraphMap.java ur.txt -show -directions HYLAN LECHASE
+
+//This shows a drawing of the ur campus file and the route taken. It also displays the shortest route from HYLAN to LECHASE in the command //window
+
+(2)
+java GraphMap.java monroe.txt -show -meridianmap
+
+//This shows a drawing of monroe county and the MST of monroe county. In addition, the roads traveled are displayed in the command window
+//Note: The screen shot of the roads taken is only the last few roads, since I could not scroll up further in the command line to get all of roads taken. 
+
+(3)
+java GraphMap.java nys.txt -show 
+
+//This shows a drawing of the map of nys
+
+(4)
+java GraphMap.java nys.txt -show -directions i56 i7000
+
+//This draws nys and draws the shortest path from i56 to i7000. It also displays the shortest route taken to the command line
+//Note: I did not include a copy of the command line for this picture because the route taken was way too long to screen shot. 
+
+
+//Hopefully from this, you can get a feeling of how my file can be run.
+
